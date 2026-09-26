@@ -1,0 +1,3 @@
+"use client";
+import { storedUser } from "@/lib/api-client";
+export default function ProfilePage() { const user = storedUser(); return <section><h1 className="text-3xl font-bold">My profile</h1><div className="mt-6 max-w-xl rounded-xl bg-white p-6 shadow-sm"><dl className="space-y-4 text-sm"><div><dt className="text-slate-500">Name</dt><dd className="font-medium">{user?.full_name}</dd></div><div><dt className="text-slate-500">Email</dt><dd className="font-medium">{user?.email}</dd></div><div><dt className="text-slate-500">Role</dt><dd className="font-medium">{user?.role}</dd></div></dl></div></section>; }

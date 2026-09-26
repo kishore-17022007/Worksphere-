@@ -1,0 +1,1 @@
+export default function DepartmentsPage() { return <section><h1 className="text-3xl font-bold">Departments</h1><p className="mt-2 text-slate-600">Company departments and ownership.</p><div className="mt-6 rounded-xl bg-white p-6 shadow-sm text-sm text-slate-500">No departments found.</div></section>; }

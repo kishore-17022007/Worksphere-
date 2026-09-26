@@ -1,0 +1,1 @@
+export default function TeamsPage() { return <section><h1 className="text-3xl font-bold">Teams</h1><p className="mt-2 text-slate-600">Your teams and reporting structure.</p><div className="mt-6 rounded-xl bg-white p-6 shadow-sm text-sm text-slate-500">No teams found.</div></section>; }
